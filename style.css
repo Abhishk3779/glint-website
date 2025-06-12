@@ -7,3 +7,64 @@ html,body{
     width: 100%;
     height: 100%;
 }
+.clr-green{
+    background-color:#08D665 ;
+}
+.clr-gray{
+    background-color:  #2E3D43;
+}
+
+
+
+/* header section start.. */
+.arrows{
+    font-size: 16px;
+}
+.hdr-txt p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.hdr-txt i{
+    padding: 8px 10px;
+}
+.hdr-icons >i{
+    border-left: 1px solid gray;
+}
+.hdr-btn button{
+    padding: 5px 20px;
+}
+.ri-arrow-left-line{
+    border-right: 2px solid rgb(157, 157, 157);
+}
+.nav ul li{
+    border-bottom: 2px solid #212529;
+    font-size: 16px;
+}
+.nav ul li:hover{
+    border-bottom: 2px solid #08D665;
+}
+.search i{
+    color: #08D665;
+    font-size: 18px;
+}
+.search p{
+    font-size: 18px;
+}
+.menu i{
+    color: #08D665;
+}
+.hdr-btn button {
+    padding: 10px 18px;
+}
+.hdr-btn button a{
+    font-size: 16px;
+}
+.hdr-icons i{
+    font-size: 16px;
+    padding: 10px;
+}
+/* header section end.. */
+
+/* Green : #08D665 
+Black : #0B0D0C 
+grey : #2E3D43 */
