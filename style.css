@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Manrope:wght@200..800&family=Montez&family=Outfit&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -71,3 +72,106 @@ html,body{
 /* Green : #08D665 
 Black : #0B0D0C 
 grey : #2E3D43 */
+
+
+/* footer section started */
+footer{
+ background-color : #0B0D0C ;
+}
+
+
+#wrapper{
+text-align: center;
+}
+
+
+.head{
+    width: 100%;
+      display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+.head h3{
+    color:#08D665;
+font-size: 25px;
+}
+
+.head p{
+    color: white;
+    font-size: 40px;
+    width: 31%;
+    text-transform: uppercase;
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     letter-spacing: 1px;
+     margin:0 auto;
+}
+.head span{
+    color:#22CD6F;
+}
+
+.form{
+    width: 100%;
+    margin-top: 50px;
+
+}
+.form input {
+    padding: 20px 25px;
+    border-color: #08D665;
+    border-radius: 8px;
+    background-color: #0B0D0C;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+button{
+     padding: 20px 25px;
+    border-color: #08D665;
+    border-radius: 8px;
+    background-color: #08D665;
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* display: flex;
+    flex-direction: row;
+    gap: 30px;  */
+}
+button i{
+    border: 1px solid wheat;
+    font-size: 20px;
+    margin: 20px;
+   padding: 10px;
+   color:#08D665;
+   background-color: white;
+   border-radius: 3px;
+}
+
+.logo{
+    width: 100%;
+    margin-top: 50px;
+}
+.logo img{
+    width:200px;
+    height: 100px;
+    padding: 30px;
+    filter: grayscale(2);
+}
+img:hover{
+   filter: grayscale(0);
+   color: #08D665;
+}
+/* .list{
+
+width: 30%;
+display: flex;
+gap:6px;
+list-style: none;
+margin-top: 50px;
+
+}
+a  {
+    text-decoration: none;
+
+} */
+/* footer section end */
